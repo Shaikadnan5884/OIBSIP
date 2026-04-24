@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#41AB41</color>
+    <color name="primary_variant">#2E7D32</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="dark_bg">#121212</color>
+    <color name="dark_surface">#1E1E1E</color>
+    <color name="text_main">#41AB41</color>
+    <color name="text_secondary">#B0B0B0</color>
+
+    <color name="priority_high">#FF5252</color>
+    <color name="priority_medium">#FFB300</color>
+    <color name="priority_low">#4CAF50</color>
+</resources>
