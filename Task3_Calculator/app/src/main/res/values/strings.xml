@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="digit_0">0</string>
+    <string name="digit_00">00</string>
+    <string name="digit_1">1</string>
+    <string name="digit_2">2</string>
+    <string name="digit_3">3</string>
+    <string name="digit_4">4</string>
+    <string name="digit_5">5</string>
+    <string name="digit_6">6</string>
+    <string name="digit_7">7</string>
+    <string name="digit_8">8</string>
+    <string name="digit_9">9</string>
+    <string name="dot">.</string>
+    <string name="op_add">+</string>
+    <string name="op_sub">-</string>
+    <string name="op_mul">×</string>
+    <string name="op_div">÷</string>
+    <string name="op_percent">%</string>
+    <string name="op_equal">=</string>
+    <string name="op_ac">AC</string>
+    <string name="error_msg">Error</string>
+
+    <string name="desc_menu">Menu</string>
+    <string name="desc_scientific">Scientific Mode</string>
+    <string name="desc_history">History</string>
+    <string name="desc_options">Options</string>
+    <string name="desc_backspace">Backspace</string>
+    <string name="desc_layout">Change Layout</string>
+</resources>
