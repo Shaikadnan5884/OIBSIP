@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark"
+    tools:context=".MainActivity">
+
+    <!-- Header Heading -->
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="CALCULATOR"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Display Area -->
+    <LinearLayout
+        android:id="@+id/displayArea"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="bottom|end"
+        android:orientation="vertical"
+        android:padding="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/keypad"
+        app:layout_constraintTop_toBottomOf="@id/tvHeader">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvEquation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="56sp"
+                tools:text="7+11" />
+
+            <View
+                android:id="@+id/cursor"
+                android:layout_width="2dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="4dp"
+                android:background="@color/cursor_color" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/text_secondary"
+            android:textSize="28sp"
+            tools:text="18" />
+    </LinearLayout>
+
+    <!-- Keypad Area -->
+    <GridLayout
+        android:id="@+id/keypad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:columnCount="4"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <!-- Row 1 -->
+        <FrameLayout style="@style/CalculatorButtonStyle">
+            <Button
+                android:id="@+id/btnAC"
+                style="@style/ButtonInnerStyle"
+                android:onClick="onClearClick"
+                android:text="@string/op_ac" />
+        </FrameLayout>
+
+        <FrameLayout style="@style/CalculatorButtonStyle">
+            <Button
+                android:id="@+id/btnPercent"
+                style="@style/ButtonInnerStyle"
+                android:onClick="onOperatorClick"
+                android:text="@string/op_percent" />
+        </FrameLayout>
+
+        <FrameLayout style="@style/CalculatorButtonStyle">
+            <ImageButton
+                android:id="@+id/btnBackspace"
+                style="@style/ButtonInnerStyle"
+                android:contentDescription="@string/desc_backspace"
+                android:onClick="onBackspaceClick"
+                android:src="@drawable/ic_backspace"
+                app:tint="@color/white" />
+        </FrameLayout>
+
+        <FrameLayout style="@style/CalculatorButtonStyle">
+            <Button
+                android:id="@+id/btnDiv"
+                style="@style/ButtonInnerStyle"
+                android:onClick="onOperatorClick"
+                android:text="@string/op_div" />
+        </FrameLayout>
+
+        <!-- Row 2 -->
+        <FrameLayout style="@style/CalculatorButtonStyle">
+            <Button
+                style="@style/ButtonInnerStyle"
+                android:onClick="onDigitClick"
+                android:text="@string/digit_7" />
+        </FrameLayout>
+
+        <FrameLayout style="@style/CalculatorButtonStyle">
+            <Button
+                style="@style/ButtonInnerStyle"
+                android:onClick="onDigitClick"
+                android:text="@string/digit_8" />
+        </FrameLayout>
+
+        <FrameLayout style="@style/CalculatorButtonStyle">
+            <Button
+                style="@style/ButtonInnerStyle"
+                android:onClick="onDigitClick"
+                android:text="@string/digit_9" />
+        </FrameLayout>
+
+        <FrameLayout style="@style/CalculatorButtonStyle">
+            <Button
+                android:id="@+id/btnMul"
+                style="@style/ButtonInnerStyle"
+                android:onClick="onOperatorClick"
+                android:text="@string/op_mul" />
+        </FrameLayout>
+
+        <!-- Row 3 -->
+        <FrameLayout style="@style/CalculatorButtonStyle">
+            <Button
+                style="@style/ButtonInnerStyle"
+                android:onClick="onDigitClick"
+                android:text="@string/digit_4" />
+        </FrameLayout>
+
+        <FrameLayout style="@style/CalculatorButtonStyle">
+            <Button
+                style="@style/ButtonInnerStyle"
+                android:onClick="onDigitClick"
+                android:text="@string/digit_5" />
+        </FrameLayout>
+
+        <FrameLayout style="@style/CalculatorButtonStyle">
+            <Button
+                style="@style/ButtonInnerStyle"
+                android:onClick="onDigitClick"
+                android:text="@string/digit_6" />
+        </FrameLayout>
+
+        <FrameLayout style="@style/CalculatorButtonStyle">
+            <Button
+                android:id="@+id/btnSub"
+                style="@style/ButtonInnerStyle"
+                android:onClick="onOperatorClick"
+                android:text="@string/op_sub" />
+        </FrameLayout>
+
+        <!-- Row 4 -->
+        <FrameLayout style="@style/CalculatorButtonStyle">
+            <Button
+                style="@style/ButtonInnerStyle"
+                android:onClick="onDigitClick"
+                android:text="@string/digit_1" />
+        </FrameLayout>
+
+        <FrameLayout style="@style/CalculatorButtonStyle">
+            <Button
+                style="@style/ButtonInnerStyle"
+                android:onClick="onDigitClick"
+                android:text="@string/digit_2" />
+        </FrameLayout>
+
+        <FrameLayout style="@style/CalculatorButtonStyle">
+            <Button
+                style="@style/ButtonInnerStyle"
+                android:onClick="onDigitClick"
+                android:text="@string/digit_3" />
+        </FrameLayout>
+
+        <FrameLayout style="@style/CalculatorButtonStyle">
+            <Button
+                android:id="@+id/btnAdd"
+                style="@style/ButtonInnerStyle"
+                android:onClick="onOperatorClick"
+                android:text="@string/op_add" />
+        </FrameLayout>
+
+        <!-- Row 5 -->
+        <FrameLayout style="@style/CalculatorButtonStyle">
+            <Button
+                style="@style/ButtonInnerStyle"
+                android:onClick="onDigitClick"
+                android:text="@string/digit_00" />
+        </FrameLayout>
+
+        <FrameLayout style="@style/CalculatorButtonStyle">
+            <Button
+                style="@style/ButtonInnerStyle"
+                android:onClick="onDigitClick"
+                android:text="@string/digit_0" />
+        </FrameLayout>
+
+        <FrameLayout style="@style/CalculatorButtonStyle">
+            <Button
+                style="@style/ButtonInnerStyle"
+                android:onClick="onDigitClick"
+                android:text="@string/dot" />
+        </FrameLayout>
+
+        <FrameLayout style="@style/CalculatorButtonStyle">
+            <Button
+                android:id="@+id/btnEqual"
+                style="@style/ButtonInnerStyle"
+                android:onClick="onEqualClick"
+                android:text="@string/op_equal" />
+        </FrameLayout>
+
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
