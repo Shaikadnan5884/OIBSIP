@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Stopwatch-App</string>
+    <string name="default_time">00:00:000</string>
+    <string name="start">Start</string>
+    <string name="resume">Resume</string>
+    <string name="pause">Pause</string>
+    <string name="reset">Reset</string>
+    <string name="lap">Lap</string>
+    <string name="lap_header">Laps</string>
+    <string name="lap_item_format">Lap %1$d: %2$s</string>
+</resources>
