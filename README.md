@@ -27,7 +27,7 @@ A simple and efficient tool for converting units across different categories lik
 **Features:** Real-time conversion, user-friendly interface.  
 **Tech Used:** Java, XML, ConstraintLayout.  
 
-🎬 Watch Demo Video | 📦 [Download APK](apk/Task1_UnitConverter.apk)
+🎬 Watch Demo Video | 📦 [Download APK](apk/Unit-Converter.apk)
 
 ---
 
@@ -36,7 +36,7 @@ A productivity application designed to help users manage their daily schedules, 
 **Features:** Secure Login/Sign-up system, SQLite Database for data persistence, Task CRUD (Create, Read, Update, Delete).  
 **Tech Used:** Java, SQLite, RecyclerView, Material Design.  
 
-🎬 Watch Demo Video | 📦 [Download APK](apk/Task2_ToDoApp.apk)
+🎬 Watch Demo Video | 📦 [Download APK](apk/To-Do-app.apk)
 
 ---
 
@@ -45,7 +45,7 @@ A classic calculator app capable of performing standard arithmetic operations wi
 **Features:** Clean grid layout, responsive design, support for basic operations (+, -, *, /).  
 **Tech Used:** Java, GridLayout, TableLayout.  
 
-🎬 Watch Demo Video | 📦 [Download APK](apk/Task3_Calculator.apk)
+🎬 Watch Demo Video | 📦 [Download APK](apk/Calculator.apk)
 
 ---
 
@@ -54,7 +54,7 @@ An interactive quiz game that tests general knowledge with multiple-choice quest
 **Features:** Question randomization, score tracking, progress bar, final results screen.  
 **Tech Used:** Java, RadioGroups, View Animation.  
 
-🎬 Watch Demo Video | 📦 [Download APK](apk/Task4_Quiz-Application.apk)
+🎬 Watch Demo Video | 📦 [Download APK](apk/Quiz-Application.apk)
 
 ---
 
@@ -63,7 +63,7 @@ A precision timepiece app that measures elapsed time between activation and deac
 **Features:** Start, Stop (Pause), and Hold (Reset) functionality.  
 **Tech Used:** Java, Handler/Runnable for timing logic, SystemClock.  
 
-🎬 Watch Demo Video | 📦 [Download APK](apk/Task5_Stopwatch-app.apk)
+🎬 Watch Demo Video | 📦 [Download APK](apk/Stop-Watch.apk)
 
 ---
 
