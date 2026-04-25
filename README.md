@@ -27,7 +27,7 @@ A simple and efficient tool for converting units across different categories lik
 **Features:** Real-time conversion, user-friendly interface.  
 **Tech Used:** Java, XML, ConstraintLayout.  
 
-🎬 Watch Demo Video | 📦 [Download APK](apk/Unit-Converter.apk)
+🎬 Watch Demo Video | 📦 [Unit Converter APK](https://github.com/Shaikadnan5884/OIBSIP/releases/download/v1.0/Task1_UnitConverter-v1.0.apk)
 
 ---
 
@@ -36,7 +36,7 @@ A productivity application designed to help users manage their daily schedules, 
 **Features:** Secure Login/Sign-up system, SQLite Database for data persistence, Task CRUD (Create, Read, Update, Delete).  
 **Tech Used:** Java, SQLite, RecyclerView, Material Design.  
 
-🎬 Watch Demo Video | 📦 [Download APK](apk/To-Do-app.apk)
+🎬 Watch Demo Video | 📦 [ToDo App APK](https://github.com/Shaikadnan5884/OIBSIP/releases/download/v1.0/Task2_ToDoApp-v1.0.apk)
 
 ---
 
@@ -45,7 +45,7 @@ A classic calculator app capable of performing standard arithmetic operations wi
 **Features:** Clean grid layout, responsive design, support for basic operations (+, -, *, /).  
 **Tech Used:** Java, GridLayout, TableLayout.  
 
-🎬 Watch Demo Video | 📦 [Download APK](apk/Calculator.apk)
+🎬 Watch Demo Video | 📦 [Calculator APK](https://github.com/Shaikadnan5884/OIBSIP/releases/download/v1.0/Task3_Calculator-v1.0.apk)
 
 ---
 
@@ -54,7 +54,7 @@ An interactive quiz game that tests general knowledge with multiple-choice quest
 **Features:** Question randomization, score tracking, progress bar, final results screen.  
 **Tech Used:** Java, RadioGroups, View Animation.  
 
-🎬 Watch Demo Video | 📦 [Download APK](apk/Quiz-Application.apk)
+🎬 Watch Demo Video | 📦 [Quiz App APK](https://github.com/Shaikadnan5884/OIBSIP/releases/download/v1.0/Task4_Quiz-Application-v1.0.apk)
 
 ---
 
@@ -63,7 +63,7 @@ A precision timepiece app that measures elapsed time between activation and deac
 **Features:** Start, Stop (Pause), and Hold (Reset) functionality.  
 **Tech Used:** Java, Handler/Runnable for timing logic, SystemClock.  
 
-🎬 Watch Demo Video | 📦 [Download APK](apk/Stop-Watch.apk)
+🎬 Watch Demo Video | 📦 [Stopwatch APK](https://github.com/Shaikadnan5884/OIBSIP/releases/download/v1.0/Task5_Stopwatch-app-v1.0.apk)
 
 ---
 
@@ -78,8 +78,8 @@ A precision timepiece app that measures elapsed time between activation and deac
 5. Run the app on an Emulator or a physical Android device.
 ---
 ## 🤝 Connect with Me
-- LinkedIn:[Shaikadnan5884:](https://www.linkedin.com/in/shaikadnan5884)
-- GitHub:[Shaikadnan5884:](https://github.com/Shaikadnan5884/)
+- LinkedIn:[Shaikadnan5884](https://www.linkedin.com/in/shaikadnan5884)
+- GitHub:[Shaikadnan5884](https://github.com/Shaikadnan5884/)
   
 Special thanks to Oasis Infobyte for this learning opportunity!
 ## Tags 
