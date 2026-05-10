@@ -18,6 +18,8 @@ This repository follows an organized folder structure where each folder represen
 - Task 4: Quiz Application  
 - Task 5: Stopwatch App  
 
+🎬 [Demo Vedio for all Applications](https://youtu.be/NDe61uw2Xio?si=AEaiNPO5W_wm6sWZ)
+
 ---
 
 ## 📱 Tasks Overview
@@ -27,7 +29,7 @@ A simple and efficient tool for converting units across different categories lik
 **Features:** Real-time conversion, user-friendly interface.  
 **Tech Used:** Java, XML, ConstraintLayout.  
 
-🎬 Watch Demo Video | 📦 [Unit Converter APK](https://github.com/Shaikadnan5884/OIBSIP/releases/download/v1.0/Task1_UnitConverter-v1.0.apk)
+🎬 [Watch Demo Video](https://www.linkedin.com/posts/shaikadnan5884_oasisinfobyte-internship-androidapplicationdevelopment-ugcPost-7459282674327650305-bUtF?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEz8wdUBflV1MKbTDhQOds9-ipXOihE3gK8) | 📦 [Unit Converter APK](https://github.com/Shaikadnan5884/OIBSIP/releases/download/v1.0/Task1_UnitConverter-v1.0.apk)
 
 ---
 
@@ -36,7 +38,7 @@ A productivity application designed to help users manage their daily schedules, 
 **Features:** Secure Login/Sign-up system, SQLite Database for data persistence, Task CRUD (Create, Read, Update, Delete).  
 **Tech Used:** Java, SQLite, RecyclerView, Material Design.  
 
-🎬 Watch Demo Video | 📦 [ToDo App APK](https://github.com/Shaikadnan5884/OIBSIP/releases/download/v1.0/Task2_ToDoApp-v1.0.apk)
+🎬 [Watch Demo Video](https://www.linkedin.com/posts/shaikadnan5884_41ab41-androidapplicationdevelopment-internship-ugcPost-7459282210274058240-LfIO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEz8wdUBflV1MKbTDhQOds9-ipXOihE3gK8) | 📦 [ToDo App APK](https://github.com/Shaikadnan5884/OIBSIP/releases/download/v1.0/Task2_ToDoApp-v1.0.apk)
 
 ---
 
@@ -45,7 +47,7 @@ A classic calculator app capable of performing standard arithmetic operations wi
 **Features:** Clean grid layout, responsive design, support for basic operations (+, -, *, /).  
 **Tech Used:** Java, GridLayout, TableLayout.  
 
-🎬 Watch Demo Video | 📦 [Calculator APK](https://github.com/Shaikadnan5884/OIBSIP/releases/download/v1.0/Task3_Calculator-v1.0.apk)
+🎬 [Watch Demo Video](https://www.linkedin.com/posts/shaikadnan5884_41ab41-androidapplicationdevelopment-internship-ugcPost-7459281049366208512-ovg2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEz8wdUBflV1MKbTDhQOds9-ipXOihE3gK8) | 📦 [Calculator APK](https://github.com/Shaikadnan5884/OIBSIP/releases/download/v1.0/Task3_Calculator-v1.0.apk)
 
 ---
 
@@ -54,7 +56,7 @@ An interactive quiz game that tests general knowledge with multiple-choice quest
 **Features:** Question randomization, score tracking, progress bar, final results screen.  
 **Tech Used:** Java, RadioGroups, View Animation.  
 
-🎬 Watch Demo Video | 📦 [Quiz App APK](https://github.com/Shaikadnan5884/OIBSIP/releases/download/v1.0/Task4_Quiz-Application-v1.0.apk)
+🎬 [Watch Demo Video](https://www.linkedin.com/posts/shaikadnan5884_41ab41-internship-oasisinfobyte-ugcPost-7459280500361437184-Maco?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEz8wdUBflV1MKbTDhQOds9-ipXOihE3gK8) | 📦 [Quiz App APK](https://github.com/Shaikadnan5884/OIBSIP/releases/download/v1.0/Task4_Quiz-Application-v1.0.apk)
 
 ---
 
@@ -63,7 +65,7 @@ A precision timepiece app that measures elapsed time between activation and deac
 **Features:** Start, Stop (Pause), and Hold (Reset) functionality.  
 **Tech Used:** Java, Handler/Runnable for timing logic, SystemClock.  
 
-🎬 Watch Demo Video | 📦 [Stopwatch APK](https://github.com/Shaikadnan5884/OIBSIP/releases/download/v1.0/Task5_Stopwatch-app-v1.0.apk)
+🎬 [Watch Demo Video](https://www.linkedin.com/posts/shaikadnan5884_41ab41-oasisinfobyte-internship-ugcPost-7459279713434329088-EXJK?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEz8wdUBflV1MKbTDhQOds9-ipXOihE3gK8) | 📦 [Stopwatch APK](https://github.com/Shaikadnan5884/OIBSIP/releases/download/v1.0/Task5_Stopwatch-app-v1.0.apk)
 
 ---
 
